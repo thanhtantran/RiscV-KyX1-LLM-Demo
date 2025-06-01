@@ -2,7 +2,7 @@
 
 ---
 
-详细使用说明参考[ONNXRuntime.GENAI](https://onnxruntime.ai/docs/genai/)
+[ONNXRuntime.GENAI](https://onnxruntime.ai/docs/genai/)
 
 ---
 
@@ -22,15 +22,15 @@
 - [ ] ChatGLM3
 - [ ] InternLM2
 
-#### 构建模型
-1. 环境准备
-~~~ bash
-#cd python/genai-builder
+#### Convert model
+1. Prepare environment
+```bash
+cd python/genai-builder
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-~~~
+```
 
-2. 模型转换
-~~~ bash
+2. Convert the model
+```bash
 python builder.py \
     -m Qwen/Qwen2-1.5B \
     -o qwen2-1.5b-int4-blk64 \
@@ -38,8 +38,8 @@ python builder.py \
     -e cpu \
     -c model_cache \
     --extra_options int4_accuracy_level=4 int4_block_size=64
-# 推荐的参数accuracy_level=4(W4A8 GroupWise量化, block_size=64)
-~~~
+# Recommended parameter accuracy_level=4 (W4A8 GroupWise quantization, block_size=64)
+```
 
 #### 预构建模型
 1. qwen2-1.5b
