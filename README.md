@@ -34,7 +34,7 @@ There are 4 pre-converted models for you
 | 1Q7qyorYStCm3gv2jQUNODBO6m63223mQ | llama3-int4-8b-blk64-fusion.tar.gz |
 | 1g3_Ni7sZg-_JR8u9Kx8hxHzPx9bE-Z-k | qwen2-int4-1.5b.tar.gz |
 
-Command
+AFter download models, you can run the app by command
 ```bash
 python3 llm_qa.py --help
 usage: llm_qa.py [-h] -m MODEL -e {qwen2,minicpm,tinyllama,phi2,gemma,phi3,llama3} [-i MIN_LENGTH] [-l MAX_LENGTH] [-ds] [-p TOP_P] [-k TOP_K] [-t TEMPERATURE]
