@@ -29,10 +29,10 @@ bash download_models.sh
 Có 4 mô hình đã được chuyển đổi sẵn cho bạn
 | GDrive ID | File name | Model name |
 |---|---| ---|
-| 1XVLXUlrJZyOwDlrqOwyH4kxhAd9d5QWz | minicpm-1b-int4-blk64-fusion.tar.gz | 
-| 1N9sHii6Cl5UyKS59l8DD3s2W23fF9t6k | phi-3-mini-int4-3.8b.tar.gz |
-| 1Q7qyorYStCm3gv2jQUNODBO6m63223mQ | llama3-int4-8b-blk64-fusion.tar.gz |
-| 1g3_Ni7sZg-_JR8u9Kx8hxHzPx9bE-Z-k | qwen2-int4-1.5b.tar.gz |
+| 1XVLXUlrJZyOwDlrqOwyH4kxhAd9d5QWz | minicpm-1b-int4-blk64-fusion.tar.gz | |
+| 1N9sHii6Cl5UyKS59l8DD3s2W23fF9t6k | phi-3-mini-int4-3.8b.tar.gz | phi3 |
+| 1Q7qyorYStCm3gv2jQUNODBO6m63223mQ | llama3-int4-8b-blk64-fusion.tar.gz | llama3 |
+| 1g3_Ni7sZg-_JR8u9Kx8hxHzPx9bE-Z-k | qwen2-int4-1.5b.tar.gz | qwen2 |
 
 Lệnh sử dụng
 ```bash
