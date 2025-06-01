@@ -2,7 +2,7 @@
 
 # RiscV-KyX1-LLM-Demo
 Demo running LLM AI on RISC-V SoC KyX1 on Orange Pi RV2. 
-Powered by [Orange Pi Vietnam](!https://www.facebook.com/orangepivietnam/)
+Powered by [Orange Pi Vietnam](https://www.facebook.com/orangepivietnam/)
 
 ## Run model:
 This is sample code to run pre-converted models on Orange Pi RV2, mini model with 1B or 1.5B tokens can run on Orange Pi RV2 4GB RAM; but big models like 8B or 3.8B tokens need to be run on Orange Pi RV2 8GB.
