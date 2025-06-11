@@ -9,7 +9,7 @@ This is sample code to run pre-converted models on Orange Pi RV2, mini model wit
 
 ### Clone the repo
 ```bash
-https://github.com/thanhtantran/RiscV-KyX1-LLM-Demo
+git clone https://github.com/thanhtantran/RiscV-KyX1-LLM-Demo
 cd RiscV-KyX1-LLM-Demo/python
 ```
 
